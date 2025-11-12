@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment variables
+.env
+
+# Models directory (large files)
+models/*
+!models/.gitkeep
+
+# ChromaDB directory (generated data)
+chroma-db/*
+!chroma-db/.gitkeep
+
+# Documents (user data)
+documents/*
+!documents/.gitkeep
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Streamlit cache
+.streamlit/
